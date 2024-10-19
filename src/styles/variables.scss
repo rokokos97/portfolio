@@ -1,10 +1,52 @@
 @use 'sass:math';
 
-$primary-color: white;
-$secondary-color: black;
+// COLORS
 
-$primary-background-color: rgb(53, 81, 95);
-$secondary-background-color: rgb(117, 85, 85);
+$accent-a-95: #030a07;
+$accent-a-9: #05140f;
+$accent-a-85: #081e16;
+$accent-a-8: #0a281d;
+$accent-a-7: #03281c;
+$accent-a-6: #15503a;
+$accent-a-5: #1a6449;
+$accent-a-4: #3a7f66;
+$accent-a-3: #5a9b83;
+$accent-a-2: #79b6a0;
+$accent-a-15: #89c4ae;
+$accent-a-1: #99d2bd;
+$accent-a-05: #a9dfcb;
+$accent-a-0: #b9edda;
 
-$primary-lightness: 20%;
-$secondary-lightness: 80%;
+$gray-10: #4a4a4a;
+$gray-20: #5d5d5d;
+$gray-30: #727272;
+$gray-40: #868686;
+$gray-50: #9b9b9b;
+$gray-60: #afafaf;
+$gray-70: #c3c3c3;
+$gray-80: #d7d7d7;
+$gray-90: #f5f5f5;
+
+$black: #000000;
+$white: #fafafa;
+$transparent70-gray10: rgba(74, 74, 74, 0.7);
+$transparent-30-a-05: rgba(169, 223, 203, 0.3);
+
+$success: #2ab66a;
+$error: #ea001b;
+$warning: #ffd90f;
+$additional-information: #589bff;
+$light-pink: #dfc5c5;
+
+$white-color: #ffffff;
+$black-color: #040404;
+$accent_4: #3a7f66;
+$header-text-color: #212a2f;
+$second-color: #f8f8f8;
+$active-color: #ad1f00;
+$bg-color: #d9d9d9;
+$section-bg-color: #f1f1f1;
+$btn-bg-color: #6d6d6d;
+$transparent-30: rgba(169, 223, 203, 0.3);
+
+$primary-color: $black-color;

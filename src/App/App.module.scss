@@ -1,5 +1,13 @@
-.article {
+@import "../styles/variables.scss";
+
+
+.App {
     display: flex;
-    width: 100vw;
-    height: 100vh;
-}
+    flex-direction: column;
+    width: 100%;
+    min-width: 36rem;
+    margin: 0 auto;
+    background-color: $gray-90;
+    color: $black;
+    min-height: 100vh;
+  }
