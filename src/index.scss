@@ -1,20 +1,20 @@
 @import 'styles/variables.scss';
 
 :root {
-  font-family: Fixel, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: Poppins, Lato, Verdana, Arial, system-ui, sans-serif;
+  font-size: 10px;
   line-height: 1.5;
   font-weight: 400;
 
   color-scheme: light dark;
-  color: $primary-color;
-  
-  // background-color: $secondary-color;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+
 
 h1 {
   font-size: 4rem;
@@ -34,19 +34,33 @@ h3 {
   padding: 0;
   margin: 0;
 }
-
-
-
-
 @media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
+  body {
+    background-color: $theme-light-background-color;
+    color: $theme-light-color;
   }
-  a:hover {
-    color: #747bff;
+
+  a {
+    color: $theme-light-links-color;
   }
-  button {
-    background-color: #f9f9f9;
+
+  svg {
+    fill: $theme-light-color;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: $theme-dark-background-color;
+    color: $theme-dark-color;
+  
+  }
+
+  a {
+    color: $theme-dark-links-color;
+  }
+
+  svg {
+    fill: $theme-dark-color;
   }
 }
