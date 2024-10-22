@@ -1,11 +1,14 @@
-import styles from './App.module.scss'
-import cv from '../pages/cv/Cv'
+import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import Layout from '../components/Layout/Layout'
+
+const router = createBrowserRouter([
+
+  { id: 'root', path: '/', Component: Layout}
+])
 
 function App() {
   return (
-    <article className={styles.article}>
-      {cv()}
-    </article>
+    <RouterProvider router={router} fallbackElement={<p>Initial Load...</p>} />
   )
 }
 
