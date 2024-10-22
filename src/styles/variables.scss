@@ -38,15 +38,38 @@ $warning: #ffd90f;
 $additional-information: #589bff;
 $light-pink: #dfc5c5;
 
-$white-color: #ffffff;
-$black-color: #040404;
-$accent_4: #3a7f66;
-$header-text-color: #212a2f;
-$second-color: #f8f8f8;
-$active-color: #ad1f00;
-$bg-color: #d9d9d9;
-$section-bg-color: #f1f1f1;
-$btn-bg-color: #6d6d6d;
-$transparent-30: rgba(169, 223, 203, 0.3);
+$theme-dark-background-color: $black;
+$theme-dark-color: $white;
+$theme-dark-links-color: $gray-50;
 
-$primary-color: $black-color;
+$theme-light-background-color: $white;
+$theme-light-color: $black;
+$theme-light-links-color: $gray-70;
+
+
+// SIZE
+
+$headerHeight: 8.6rem;
+$max-width: 144rem;
+$min-width: 112rem;
+$form-width: 40.9rem;
+$extra-small: 6.4rem;
+$small: 19rem;
+$medium: 41.1rem;
+$large: 63rem;
+
+$xxl-spacing: 3.2rem;
+$xl-spacing: 2.4rem;
+$l-spacing: 1.6rem;
+$m-spacing: 1.2rem;
+$s-spacing: 0.8rem;
+$xs-spacing: 0.4rem;
+
+
+@mixin svgBaseStyle(){
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
