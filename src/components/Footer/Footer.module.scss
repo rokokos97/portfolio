@@ -6,7 +6,6 @@
   justify-content: space-between;
   align-items: center;
   padding: $xl-spacing;
-  background-color: $theme-background-color;
 
   .socialMedia {
     display: flex;
@@ -14,6 +13,6 @@
     gap: $m-spacing;
   }
   .copyRight {
-    color: $theme-color; ;
+
   }
 }
