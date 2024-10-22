@@ -1,0 +1,18 @@
+@import "/src/styles/variables.scss";
+
+.Footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: $xl-spacing;
+
+  .socialMedia {
+    display: flex;
+    flex-direction: row;
+    gap: $m-spacing;
+  }
+  .copyRight {
+
+  }
+}
