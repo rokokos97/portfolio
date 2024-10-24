@@ -1,1 +1,1 @@
-export * from './EmailIcon';
+export * from "./EmailIcon";

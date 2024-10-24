@@ -1,10 +1,11 @@
-import { render, screen } from '@testing-library/react';
-import XTwitterIcon from './XTwitterIcon';
+import React from "react";
+import { render, screen } from "@testing-library/react";
+import XTwitterIcon from "./XTwitterIcon";
 
-describe('XTwitterIcon', () => {
-  it('should render without errors', () => {
+describe("XTwitterIcon", () => {
+  it("should render without errors", () => {
     render(<XTwitterIcon />);
-    const element = screen.getByText('XTwitterIcon');
+    const element = screen.getByText("XTwitterIcon");
     expect(element).toBeInTheDocument();
   });
 });

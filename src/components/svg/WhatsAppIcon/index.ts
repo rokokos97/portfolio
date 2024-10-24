@@ -1,1 +1,1 @@
-export * from './WhatsAppIcon';
+export * from "./WhatsAppIcon";

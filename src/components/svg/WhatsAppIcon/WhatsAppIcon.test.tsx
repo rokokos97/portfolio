@@ -1,10 +1,11 @@
-import { render, screen } from '@testing-library/react';
-import WhatsAppIcon from './WhatsAppIcon';
+import React from "react";
+import { render, screen } from "@testing-library/react";
+import WhatsAppIcon from "./WhatsAppIcon";
 
-describe('WhatsAppIcon', () => {
-  it('should render without errors', () => {
+describe("WhatsAppIcon", () => {
+  it("should render without errors", () => {
     render(<WhatsAppIcon />);
-    const element = screen.getByText('WhatsAppIcon');
+    const element = screen.getByText("WhatsAppIcon");
     expect(element).toBeInTheDocument();
   });
 });

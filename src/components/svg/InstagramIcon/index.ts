@@ -1,1 +1,1 @@
-export * from './InstagramIcon';
+export * from "./InstagramIcon";

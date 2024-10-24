@@ -1,1 +1,1 @@
-export * from './LinkedinIcon';
+export * from "./LinkedinIcon";

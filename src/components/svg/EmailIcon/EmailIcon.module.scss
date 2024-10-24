@@ -1,9 +1,7 @@
 @import "/src/styles/variables.scss";
 
-
-
 .EmailIcon {
-    @include svgBaseStyle();
-    width: 2.4rem;
-    height: 2.4rem;
+  @include svgBaseStyle();
+  width: 2.4rem;
+  height: 2.4rem;
 }

@@ -1,1 +1,1 @@
-export * from './FacebookIcon';
+export * from "./FacebookIcon";

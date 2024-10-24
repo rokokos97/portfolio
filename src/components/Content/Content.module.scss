@@ -1,7 +1,10 @@
 @import "/src/styles/variables.scss";
 
-.Layout {
+.Content {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
+  flex-grow: 1;
+  min-height: 100vh;
 }

@@ -1,13 +1,11 @@
 @import "../styles/variables.scss";
 
-
 .App {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    min-width: 36rem;
-    margin: 0 auto;
-    background-color: $gray-90;
-    color: $black;
-    min-height: 100vh;
-  }
+  display: flex;
+  flex-direction: column;
+  min-width: 36rem;
+  margin: 0 auto;
+  background-color: $gray-90;
+  color: $black;
+  min-height: 100vh;
+}

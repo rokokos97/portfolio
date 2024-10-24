@@ -1,7 +1,18 @@
 @import "/src/styles/variables.scss";
 
-
-
 .Header {
- 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  z-index: 9999;
+  border: 1px solid $white;
+  padding: $xl-spacing;
+
+  .navigation {
+    display: flex;
+    flex-direction: row;
+    gap: $m-spacing;
+    align-items: center;
+  }
 }

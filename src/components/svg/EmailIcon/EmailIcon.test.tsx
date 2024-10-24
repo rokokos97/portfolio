@@ -1,10 +1,11 @@
-import { render, screen } from '@testing-library/react';
-import EmailIcon from './EmailIcon';
+import React from "react";
+import { render, screen } from "@testing-library/react";
+import EmailIcon from "./EmailIcon";
 
-describe('EmailIcon', () => {
-  it('should render without errors', () => {
+describe("EmailIcon", () => {
+  it("should render without errors", () => {
     render(<EmailIcon />);
-    const element = screen.getByText('EmailIcon');
+    const element = screen.getByText("EmailIcon");
     expect(element).toBeInTheDocument();
   });
 });

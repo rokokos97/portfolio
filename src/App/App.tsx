@@ -1,15 +1,18 @@
-import { createBrowserRouter, RouterProvider } from 'react-router-dom'
-import Layout from '../components/Layout/Layout'
+import React from "react";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import Layout from "../components/Layout/Layout";
 
 const router = createBrowserRouter([
-
-  { id: 'root', path: '/', Component: Layout}
-])
+  { id: "root", path: "/", Component: Layout }
+]);
 
 function App() {
   return (
-    <RouterProvider router={router} fallbackElement={<p>Initial Load...</p>} />
-  )
+    <RouterProvider
+      router={router}
+      fallbackElement={<p>Initial Load...</p>}
+    />
+  );
 }
 
-export default App
+export default App;
